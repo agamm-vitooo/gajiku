@@ -1,6 +1,5 @@
 import { db } from "@/lib/firebaseConfig";
 import { collection, addDoc, getDocs, updateDoc, deleteDoc, doc } from "firebase/firestore";
-import { ExpenseModel } from "@/lib/models/expense";
 
 const expensesCollection = collection(db, "expenses");
 
